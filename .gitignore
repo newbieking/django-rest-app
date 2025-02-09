@@ -1,0 +1,42 @@
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# Python 虚拟环境
+venv/
+env/
+.venv/
+
+# 日志文件
+*.log
+*.out
+
+# 编译后的 Python 文件
+__pycache__/
+*.pyc
+*.pyo
+
+# Django 自动生成的文件
+db.sqlite3
+db.sqlite3-journal
+
+# 媒体文件和静态文件（如果不希望跟踪）
+media/
+staticfiles/
+
+# 配置文件（如果包含敏感信息）
+.env
+local_settings.py
+
+# 临时文件和备份文件
+*.bak
+*.swp
+
+# 打包文件
+dist/
+build/
+*.egg-info/
+
+# IDE 和编辑器配置文件
+.idea/
+.vscode/
