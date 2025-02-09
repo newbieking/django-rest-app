@@ -1,3 +1,7 @@
+"""
+add random data for testing purpose
+"""
+
 import os
 import django
 import random
